@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting</title>
+    <meta name="description" content="Contact White Water Rafting for inquiries, reservations, or website suggestions. Get in touch with us today!">
+    <meta name="author" content="Dominic Munyiri">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/raftlogo.jpg" alt="Rafting Site Logo">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <p>Get in touch with us for any questions or feedback. We're here to help!</p>
+                <address>
+                    <strong>Address:</strong> 123 River Road, Raftville, USA<br>
+                    <strong>Phone:</strong> (123) 456-7890<br>
+                    <strong>Email:</strong> info@whitewaterrafting.com
+                </address>
+            </div>
+        </section>
+
+        <section class="location">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450"></iframe>
+        </section>
+
+        <section class="our-team">
+            <h2>Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>John Doe - Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Jane Smith - Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Sam Brown - Chef</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="send-message">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Purpose of Message:</label>
+                <div>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                    <label for="inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send Your Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 White Water Rafting</p>
+            <nav class="social-links">
+                <a href="https://facebook.com" rel="noopener noreferrer"><img src="images/facebook.jpg" alt="Facebook"></a>
+                <a href="https://x.com" rel="noopener noreferrer"><img src="images/x.jpg" alt="X"></a>
+                <a href="https://instagram.com" rel="noopener noreferrer"><img src="images/instagram.jpg" alt="Instagram"></a>
+            </nav>
+            <p><a href="wireframe-contact.png">View Contact Us Wireframe</a></p>
+        </div>
+    </footer>
+</body>
+</html>
